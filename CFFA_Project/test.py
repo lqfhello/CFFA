@@ -31,8 +31,8 @@ if __name__ == '__main__':
     for i in range(len(asss)):
         if os.path.exists(op.join(args.output_dir, asss[i])):
             model = build_model(args,num_classes)
-            # checkpointer = Checkpointer(model)
-            # checkpointer.load(f=op.join(args.output_dir, asss[i]))
+            checkpointer = Checkpointer(model)
+            checkpointer.load(f=op.join(args.output_dir, asss[i]))
             model = model.cuda()
             do_inference(model, test_img_loader, test_txt_loader)
 
