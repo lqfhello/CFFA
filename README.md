@@ -70,14 +70,20 @@ python test.py
 ```
 
 ## Results
-#### Results on CUHK-PEDES dataset
-![img.png](FrameworkAndResults/ResultsOnCUHK-PEDES.png)
 
-#### Results on ICFG-PEDES dataset
-![img.png](FrameworkAndResults/ResultsOnICFG-PEDES.png)
+[//]: # (#### Results on CUHK-PEDES dataset)
 
-#### Results on RSTPReid dataset
-![img.png](FrameworkAndResults/ResultsOnRSTPReid.png)
+[//]: # (![img.png]&#40;FrameworkAndResults/ResultsOnCUHK-PEDES.png&#41;)
+
+[//]: # ()
+[//]: # (#### Results on ICFG-PEDES dataset)
+
+[//]: # (![img.png]&#40;FrameworkAndResults/ResultsOnICFG-PEDES.png&#41;)
+
+[//]: # ()
+[//]: # (#### Results on RSTPReid dataset)
+
+[//]: # (![img.png]&#40;FrameworkAndResults/ResultsOnRSTPReid.png&#41;)
 
 #### Qualitative results
 ![img.png](FrameworkAndResults/QualitativeResults.png)
